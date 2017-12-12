@@ -1,0 +1,49 @@
+body {
+    background-color: #efefef;
+    margin: 0;
+    padding: 0 0 50px;
+}
+
+header {
+    padding: 3rem 4rem;
+    min-height: 120px;
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}
+
+.nav {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.nav a {
+    color: #ccc;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: all ease-in-out .2s;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.nav a:hover,
+.nav a.active {
+    color: #f1f1f1;
+}
+
+.album {
+    width: 900px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.album img {
+    margin-bottom: 20px;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .45)
+}
